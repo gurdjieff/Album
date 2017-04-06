@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		087A42623B8041AFA7E48032 /* Pods_HuluSearchAlbum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AA3477E64C6B367BE1899C1 /* Pods_HuluSearchAlbum.framework */; };
+		193519831E91EA9800333AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193519821E91EA9800333AEB /* AppDelegate.swift */; };
+		1935198B1E91EA9800333AEB /* HuluSearchAlbum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 193519891E91EA9800333AEB /* HuluSearchAlbum.xcdatamodeld */; };
+		1935198D1E91EA9800333AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1935198C1E91EA9800333AEB /* Assets.xcassets */; };
+		193519901E91EA9800333AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1935198E1E91EA9800333AEB /* LaunchScreen.storyboard */; };
+		1935199B1E91EA9900333AEB /* HuluSearchAlbumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1935199A1E91EA9900333AEB /* HuluSearchAlbumTests.swift */; };
+		193519A61E91EA9900333AEB /* HuluSearchAlbumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193519A51E91EA9900333AEB /* HuluSearchAlbumUITests.swift */; };
+		193519C01E91EB3100333AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193519B41E91EB3100333AEB /* ViewController.swift */; };
+		193519C11E91EB3100333AEB /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193519B61E91EB3100333AEB /* AlbumModel.swift */; };
+		193519C21E91EB3100333AEB /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193519B71E91EB3100333AEB /* ArtistModel.swift */; };
+		193519C31E91EB3100333AEB /* NetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193519B91E91EB3100333AEB /* NetworkTool.swift */; };
+		193519C41E91EB3100333AEB /* AlbumCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193519BB1E91EB3100333AEB /* AlbumCollectionCell.swift */; };
+		193519C51E91EB3100333AEB /* AlbumCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 193519BC1E91EB3100333AEB /* AlbumCollectionCell.xib */; };
+		193519C61E91EB3100333AEB /* AlbumVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193519BE1E91EB3100333AEB /* AlbumVM.swift */; };
+		193519C71E91EB3100333AEB /* SearchAlbumVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193519BF1E91EB3100333AEB /* SearchAlbumVM.swift */; };
+		193519C91E91EB5E00333AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193519C81E91EB5E00333AEB /* Main.storyboard */; };
+		193519CA1E91EB5E00333AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193519C81E91EB5E00333AEB /* Main.storyboard */; };
+		193519CB1E91EB5E00333AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193519C81E91EB5E00333AEB /* Main.storyboard */; };
+		193519CC1E91F45900333AEB /* HuluSearchAlbum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 193519891E91EA9800333AEB /* HuluSearchAlbum.xcdatamodeld */; };
+		193519CD1E91F45900333AEB /* HuluSearchAlbum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 193519891E91EA9800333AEB /* HuluSearchAlbum.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		193519971E91EA9900333AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193519771E91EA9800333AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1935197E1E91EA9800333AEB;
+			remoteInfo = HuluSearchAlbum;
+		};
+		193519A21E91EA9900333AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193519771E91EA9800333AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1935197E1E91EA9800333AEB;
+			remoteInfo = HuluSearchAlbum;
+		};
+		193519F21E920AA600333AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193519E31E920AA500333AEB /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1ED2D351AD2D09F00CFC3EB;
+			remoteInfo = "Kingfisher-iOS";
+		};
+		193519F41E920AA600333AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193519E31E920AA500333AEB /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D13F49D61BEDA67C00CE335D;
+			remoteInfo = "Kingfisher-tvOS";
+		};
+		193519F61E920AA600333AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193519E31E920AA500333AEB /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B2944481C3D01B20088C3E7;
+			remoteInfo = "Kingfisher-macOS";
+		};
+		193519F81E920AA600333AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193519E31E920AA500333AEB /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D16799EB1C4E74460020FD12;
+			remoteInfo = "Kingfisher-watchOS";
+		};
+		193519FA1E920AA600333AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193519E31E920AA500333AEB /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1ED2D0B1AD2CFA600CFC3EB;
+			remoteInfo = "Kingfisher-Demo";
+		};
+		193519FC1E920AA600333AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193519E31E920AA500333AEB /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D13F49C21BEDA53F00CE335D;
+			remoteInfo = "Kingfisher-tvOS-Demo";
+		};
+		193519FE1E920AA600333AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193519E31E920AA500333AEB /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B2944551C3D03880088C3E7;
+			remoteInfo = "Kingfisher-macOS-Demo";
+		};
+		19351A001E920AA600333AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193519E31E920AA500333AEB /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1679A391C4E78B20020FD12;
+			remoteInfo = "Kingfisher-watchOS-Demo";
+		};
+		19351A021E920AA600333AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193519E31E920AA500333AEB /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1679A451C4E78B20020FD12;
+			remoteInfo = "Kingfisher-watchOS-Demo Extension";
+		};
+		19351A041E920AA600333AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193519E31E920AA500333AEB /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D1ED2D3F1AD2D09F00CFC3EB;
+			remoteInfo = KingfisherTests;
+		};
+		19351A061E920AA600333AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193519E31E920AA500333AEB /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4B37667F1C478F940001443F;
+			remoteInfo = "KingfisherTests-tvOS";
+		};
+		19351A081E920AA600333AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 193519E31E920AA500333AEB /* Kingfisher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D10EC2311C3D632300A4211C;
+			remoteInfo = "KingfisherTests-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1935197F1E91EA9800333AEB /* HuluSearchAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuluSearchAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		193519821E91EA9800333AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1935198A1E91EA9800333AEB /* HuluSearchAlbum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HuluSearchAlbum.xcdatamodel; sourceTree = "<group>"; };
+		1935198C1E91EA9800333AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1935198F1E91EA9800333AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		193519911E91EA9800333AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		193519961E91EA9900333AEB /* HuluSearchAlbumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuluSearchAlbumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1935199A1E91EA9900333AEB /* HuluSearchAlbumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuluSearchAlbumTests.swift; sourceTree = "<group>"; };
+		1935199C1E91EA9900333AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		193519A11E91EA9900333AEB /* HuluSearchAlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuluSearchAlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		193519A51E91EA9900333AEB /* HuluSearchAlbumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuluSearchAlbumUITests.swift; sourceTree = "<group>"; };
+		193519A71E91EA9900333AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		193519B41E91EB3100333AEB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		193519B61E91EB3100333AEB /* AlbumModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		193519B71E91EB3100333AEB /* ArtistModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
+		193519B91E91EB3100333AEB /* NetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTool.swift; sourceTree = "<group>"; };
+		193519BB1E91EB3100333AEB /* AlbumCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCollectionCell.swift; sourceTree = "<group>"; };
+		193519BC1E91EB3100333AEB /* AlbumCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumCollectionCell.xib; sourceTree = "<group>"; };
+		193519BE1E91EB3100333AEB /* AlbumVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumVM.swift; sourceTree = "<group>"; };
+		193519BF1E91EB3100333AEB /* SearchAlbumVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAlbumVM.swift; sourceTree = "<group>"; };
+		193519C81E91EB5E00333AEB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		193519E31E920AA500333AEB /* Kingfisher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Kingfisher.xcodeproj; path = Kingfisher/Kingfisher.xcodeproj; sourceTree = "<group>"; };
+		2B54A7AF95A61CA94F8F39BC /* Pods-HuluSearchAlbum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuluSearchAlbum.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuluSearchAlbum/Pods-HuluSearchAlbum.release.xcconfig"; sourceTree = "<group>"; };
+		3AA3477E64C6B367BE1899C1 /* Pods_HuluSearchAlbum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuluSearchAlbum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9904A1E809BD105D9DE2F5F4 /* Pods-HuluSearchAlbum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuluSearchAlbum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuluSearchAlbum/Pods-HuluSearchAlbum.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1935197C1E91EA9800333AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087A42623B8041AFA7E48032 /* Pods_HuluSearchAlbum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193519931E91EA9900333AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1935199E1E91EA9900333AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		193519761E91EA9800333AEB = {
+			isa = PBXGroup;
+			children = (
+				193519E31E920AA500333AEB /* Kingfisher.xcodeproj */,
+				193519811E91EA9800333AEB /* HuluSearchAlbum */,
+				193519991E91EA9900333AEB /* HuluSearchAlbumTests */,
+				193519A41E91EA9900333AEB /* HuluSearchAlbumUITests */,
+				193519801E91EA9800333AEB /* Products */,
+				B9492F83398E8F173F0520EF /* Pods */,
+				77F40563737CB40AE89D3AF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		193519801E91EA9800333AEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1935197F1E91EA9800333AEB /* HuluSearchAlbum.app */,
+				193519961E91EA9900333AEB /* HuluSearchAlbumTests.xctest */,
+				193519A11E91EA9900333AEB /* HuluSearchAlbumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		193519811E91EA9800333AEB /* HuluSearchAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				193519B31E91EB3100333AEB /* Controllers */,
+				193519B51E91EB3100333AEB /* Model */,
+				193519B81E91EB3100333AEB /* Tools */,
+				193519BA1E91EB3100333AEB /* View */,
+				193519BD1E91EB3100333AEB /* ViewModel */,
+				193519821E91EA9800333AEB /* AppDelegate.swift */,
+				193519C81E91EB5E00333AEB /* Main.storyboard */,
+				1935198C1E91EA9800333AEB /* Assets.xcassets */,
+				1935198E1E91EA9800333AEB /* LaunchScreen.storyboard */,
+				193519911E91EA9800333AEB /* Info.plist */,
+				193519891E91EA9800333AEB /* HuluSearchAlbum.xcdatamodeld */,
+			);
+			path = HuluSearchAlbum;
+			sourceTree = "<group>";
+		};
+		193519991E91EA9900333AEB /* HuluSearchAlbumTests */ = {
+			isa = PBXGroup;
+			children = (
+				1935199A1E91EA9900333AEB /* HuluSearchAlbumTests.swift */,
+				1935199C1E91EA9900333AEB /* Info.plist */,
+			);
+			path = HuluSearchAlbumTests;
+			sourceTree = "<group>";
+		};
+		193519A41E91EA9900333AEB /* HuluSearchAlbumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				193519A51E91EA9900333AEB /* HuluSearchAlbumUITests.swift */,
+				193519A71E91EA9900333AEB /* Info.plist */,
+			);
+			path = HuluSearchAlbumUITests;
+			sourceTree = "<group>";
+		};
+		193519B31E91EB3100333AEB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				193519B41E91EB3100333AEB /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		193519B51E91EB3100333AEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				193519B61E91EB3100333AEB /* AlbumModel.swift */,
+				193519B71E91EB3100333AEB /* ArtistModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		193519B81E91EB3100333AEB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				193519B91E91EB3100333AEB /* NetworkTool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		193519BA1E91EB3100333AEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				193519BB1E91EB3100333AEB /* AlbumCollectionCell.swift */,
+				193519BC1E91EB3100333AEB /* AlbumCollectionCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		193519BD1E91EB3100333AEB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				193519BE1E91EB3100333AEB /* AlbumVM.swift */,
+				193519BF1E91EB3100333AEB /* SearchAlbumVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		193519E41E920AA500333AEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				193519F31E920AA600333AEB /* Kingfisher.framework */,
+				193519F51E920AA600333AEB /* Kingfisher.framework */,
+				193519F71E920AA600333AEB /* Kingfisher.framework */,
+				193519F91E920AA600333AEB /* Kingfisher.framework */,
+				193519FB1E920AA600333AEB /* Kingfisher-Demo.app */,
+				193519FD1E920AA600333AEB /* Kingfisher-tvOS-Demo.app */,
+				193519FF1E920AA600333AEB /* Kingfisher-macOS-Demo.app */,
+				19351A011E920AA600333AEB /* Kingfisher-watchOS-Demo.app */,
+				19351A031E920AA600333AEB /* Kingfisher-watchOS-Demo Extension.appex */,
+				19351A051E920AA600333AEB /* KingfisherTests.xctest */,
+				19351A071E920AA600333AEB /* KingfisherTests-tvOS.xctest */,
+				19351A091E920AA600333AEB /* KingfisherTests-macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77F40563737CB40AE89D3AF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AA3477E64C6B367BE1899C1 /* Pods_HuluSearchAlbum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9492F83398E8F173F0520EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9904A1E809BD105D9DE2F5F4 /* Pods-HuluSearchAlbum.debug.xcconfig */,
+				2B54A7AF95A61CA94F8F39BC /* Pods-HuluSearchAlbum.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1935197E1E91EA9800333AEB /* HuluSearchAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193519AA1E91EA9900333AEB /* Build configuration list for PBXNativeTarget "HuluSearchAlbum" */;
+			buildPhases = (
+				04BBB2594DA259EC2F3B2B6B /* [CP] Check Pods Manifest.lock */,
+				1935197B1E91EA9800333AEB /* Sources */,
+				1935197C1E91EA9800333AEB /* Frameworks */,
+				1935197D1E91EA9800333AEB /* Resources */,
+				FD0E026E85D5C5987C7C4A6A /* [CP] Embed Pods Frameworks */,
+				B657DAAC0C31297E1ADC0033 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuluSearchAlbum;
+			productName = HuluSearchAlbum;
+			productReference = 1935197F1E91EA9800333AEB /* HuluSearchAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		193519951E91EA9900333AEB /* HuluSearchAlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193519AD1E91EA9900333AEB /* Build configuration list for PBXNativeTarget "HuluSearchAlbumTests" */;
+			buildPhases = (
+				193519921E91EA9900333AEB /* Sources */,
+				193519931E91EA9900333AEB /* Frameworks */,
+				193519941E91EA9900333AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				193519981E91EA9900333AEB /* PBXTargetDependency */,
+			);
+			name = HuluSearchAlbumTests;
+			productName = HuluSearchAlbumTests;
+			productReference = 193519961E91EA9900333AEB /* HuluSearchAlbumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		193519A01E91EA9900333AEB /* HuluSearchAlbumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193519B01E91EA9900333AEB /* Build configuration list for PBXNativeTarget "HuluSearchAlbumUITests" */;
+			buildPhases = (
+				1935199D1E91EA9900333AEB /* Sources */,
+				1935199E1E91EA9900333AEB /* Frameworks */,
+				1935199F1E91EA9900333AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				193519A31E91EA9900333AEB /* PBXTargetDependency */,
+			);
+			name = HuluSearchAlbumUITests;
+			productName = HuluSearchAlbumUITests;
+			productReference = 193519A11E91EA9900333AEB /* HuluSearchAlbumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		193519771E91EA9800333AEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Daiyu Zhang";
+				TargetAttributes = {
+					1935197E1E91EA9800333AEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					193519951E91EA9900333AEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1935197E1E91EA9800333AEB;
+					};
+					193519A01E91EA9900333AEB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1935197E1E91EA9800333AEB;
+					};
+				};
+			};
+			buildConfigurationList = 1935197A1E91EA9800333AEB /* Build configuration list for PBXProject "HuluSearchAlbum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 193519761E91EA9800333AEB;
+			productRefGroup = 193519801E91EA9800333AEB /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 193519E41E920AA500333AEB /* Products */;
+					ProjectRef = 193519E31E920AA500333AEB /* Kingfisher.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1935197E1E91EA9800333AEB /* HuluSearchAlbum */,
+				193519951E91EA9900333AEB /* HuluSearchAlbumTests */,
+				193519A01E91EA9900333AEB /* HuluSearchAlbumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		193519F31E920AA600333AEB /* Kingfisher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kingfisher.framework;
+			remoteRef = 193519F21E920AA600333AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		193519F51E920AA600333AEB /* Kingfisher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kingfisher.framework;
+			remoteRef = 193519F41E920AA600333AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		193519F71E920AA600333AEB /* Kingfisher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kingfisher.framework;
+			remoteRef = 193519F61E920AA600333AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		193519F91E920AA600333AEB /* Kingfisher.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Kingfisher.framework;
+			remoteRef = 193519F81E920AA600333AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		193519FB1E920AA600333AEB /* Kingfisher-Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Kingfisher-Demo.app";
+			remoteRef = 193519FA1E920AA600333AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		193519FD1E920AA600333AEB /* Kingfisher-tvOS-Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Kingfisher-tvOS-Demo.app";
+			remoteRef = 193519FC1E920AA600333AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		193519FF1E920AA600333AEB /* Kingfisher-macOS-Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Kingfisher-macOS-Demo.app";
+			remoteRef = 193519FE1E920AA600333AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19351A011E920AA600333AEB /* Kingfisher-watchOS-Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Kingfisher-watchOS-Demo.app";
+			remoteRef = 19351A001E920AA600333AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19351A031E920AA600333AEB /* Kingfisher-watchOS-Demo Extension.appex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.app-extension";
+			path = "Kingfisher-watchOS-Demo Extension.appex";
+			remoteRef = 19351A021E920AA600333AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19351A051E920AA600333AEB /* KingfisherTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KingfisherTests.xctest;
+			remoteRef = 19351A041E920AA600333AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19351A071E920AA600333AEB /* KingfisherTests-tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "KingfisherTests-tvOS.xctest";
+			remoteRef = 19351A061E920AA600333AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19351A091E920AA600333AEB /* KingfisherTests-macOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "KingfisherTests-macOS.xctest";
+			remoteRef = 19351A081E920AA600333AEB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1935197D1E91EA9800333AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193519901E91EA9800333AEB /* LaunchScreen.storyboard in Resources */,
+				193519C51E91EB3100333AEB /* AlbumCollectionCell.xib in Resources */,
+				1935198D1E91EA9800333AEB /* Assets.xcassets in Resources */,
+				193519C91E91EB5E00333AEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193519941E91EA9900333AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193519CA1E91EB5E00333AEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1935199F1E91EA9900333AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193519CB1E91EB5E00333AEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04BBB2594DA259EC2F3B2B6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B657DAAC0C31297E1ADC0033 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuluSearchAlbum/Pods-HuluSearchAlbum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD0E026E85D5C5987C7C4A6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuluSearchAlbum/Pods-HuluSearchAlbum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1935197B1E91EA9800333AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193519C01E91EB3100333AEB /* ViewController.swift in Sources */,
+				193519C71E91EB3100333AEB /* SearchAlbumVM.swift in Sources */,
+				193519C11E91EB3100333AEB /* AlbumModel.swift in Sources */,
+				193519C21E91EB3100333AEB /* ArtistModel.swift in Sources */,
+				193519C41E91EB3100333AEB /* AlbumCollectionCell.swift in Sources */,
+				193519C61E91EB3100333AEB /* AlbumVM.swift in Sources */,
+				1935198B1E91EA9800333AEB /* HuluSearchAlbum.xcdatamodeld in Sources */,
+				193519C31E91EB3100333AEB /* NetworkTool.swift in Sources */,
+				193519831E91EA9800333AEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193519921E91EA9900333AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1935199B1E91EA9900333AEB /* HuluSearchAlbumTests.swift in Sources */,
+				193519CC1E91F45900333AEB /* HuluSearchAlbum.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1935199D1E91EA9900333AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193519A61E91EA9900333AEB /* HuluSearchAlbumUITests.swift in Sources */,
+				193519CD1E91F45900333AEB /* HuluSearchAlbum.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		193519981E91EA9900333AEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1935197E1E91EA9800333AEB /* HuluSearchAlbum */;
+			targetProxy = 193519971E91EA9900333AEB /* PBXContainerItemProxy */;
+		};
+		193519A31E91EA9900333AEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1935197E1E91EA9800333AEB /* HuluSearchAlbum */;
+			targetProxy = 193519A21E91EA9900333AEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1935198E1E91EA9800333AEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1935198F1E91EA9800333AEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		193519A81E91EA9900333AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		193519A91E91EA9900333AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		193519AB1E91EA9900333AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9904A1E809BD105D9DE2F5F4 /* Pods-HuluSearchAlbum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HuluSearchAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = searchAlbum.HuluSearchAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		193519AC1E91EA9900333AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B54A7AF95A61CA94F8F39BC /* Pods-HuluSearchAlbum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HuluSearchAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = searchAlbum.HuluSearchAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		193519AE1E91EA9900333AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HuluSearchAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = searchAlbum.HuluSearchAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuluSearchAlbum.app/HuluSearchAlbum";
+			};
+			name = Debug;
+		};
+		193519AF1E91EA9900333AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HuluSearchAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = searchAlbum.HuluSearchAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuluSearchAlbum.app/HuluSearchAlbum";
+			};
+			name = Release;
+		};
+		193519B11E91EA9900333AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HuluSearchAlbumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = searchAlbum.HuluSearchAlbumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HuluSearchAlbum;
+			};
+			name = Debug;
+		};
+		193519B21E91EA9900333AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HuluSearchAlbumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = searchAlbum.HuluSearchAlbumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HuluSearchAlbum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1935197A1E91EA9800333AEB /* Build configuration list for PBXProject "HuluSearchAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193519A81E91EA9900333AEB /* Debug */,
+				193519A91E91EA9900333AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		193519AA1E91EA9900333AEB /* Build configuration list for PBXNativeTarget "HuluSearchAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193519AB1E91EA9900333AEB /* Debug */,
+				193519AC1E91EA9900333AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		193519AD1E91EA9900333AEB /* Build configuration list for PBXNativeTarget "HuluSearchAlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193519AE1E91EA9900333AEB /* Debug */,
+				193519AF1E91EA9900333AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		193519B01E91EA9900333AEB /* Build configuration list for PBXNativeTarget "HuluSearchAlbumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193519B11E91EA9900333AEB /* Debug */,
+				193519B21E91EA9900333AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		193519891E91EA9800333AEB /* HuluSearchAlbum.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1935198A1E91EA9800333AEB /* HuluSearchAlbum.xcdatamodel */,
+			);
+			currentVersion = 1935198A1E91EA9800333AEB /* HuluSearchAlbum.xcdatamodel */;
+			path = HuluSearchAlbum.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 193519771E91EA9800333AEB /* Project object */;
+}
